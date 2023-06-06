@@ -1,0 +1,72 @@
+  <html>
+    <head>
+      <title>Registration Form</title>
+      <link rel="icon" href="https://img.freepik.com/premium-vector/account-login-line-icon-new-user-register-registration-concept-illustration_1948-2105.jpg?w=740" type="image/x-icon">
+    </head>
+    <body style="background-image: url(https://st.depositphotos.com/1003924/2531/i/950/depositphotos_25319407-stock-photo-register-key-concept.jpg);">
+    <br><br>
+    <form align="left" >
+      <div>
+      <label for="username">Name :</label>
+      <input type="text" placeholder="First Name" name="username" required>
+      <input type="text" placeholder="Last Name" required>
+      </div>
+      <br>
+      <div>
+      <label for="roll">Rollnumber :</label>
+      <input type="Text" placeholder="Rollnumber" required>
+      </div>
+      <br>
+      <div>
+      <label for="mail">E-mail :</label>
+      <input type="email" placeholder="abc@gmail.com" name="mail" required></div>
+      <br>
+      <div>
+      <label for="Password">password :</label>
+      <input type="password" name=password required><br><br>
+      <label for="pass">Conform password</label>
+      <input type="password" name="pass" required>
+      </div>
+      <br>
+      <div>
+      <label for="gender">Gender : </label>
+      <input type="radio" value="Male" name="gender" required>Male
+      <input type="radio" value="Female" name="gender">Female</div>
+      <br><br>
+      <div>
+        Year :<select name="Year">
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+        </select>
+      </div>
+      <br>
+      <div>
+      Course:<select name="course">
+        <option>None</option>
+        <option>CSC</option>
+        <option>IT</option>
+        <option>ECE</option>
+        <option>EEE</option>
+        <option>CIVIL</option>
+        <option>MECH</option>
+      </select>
+      </div>
+      <br><br>
+      <div>
+      <label for="birthday">Birthday</label>
+      <input type="date" name="birthday"></div>
+      <br><br>
+      <div>
+      <!--<input type="submit" >
+      <input type="reset">-->
+      <input type="button" value="click me" id="redirectButton" size="10px"></div>
+    </form>
+    <script>
+      document.getElementById("redirectButton").addEventListener("click", function() {
+  window.location.href = "https://c4.wallpaperflare.com/wallpaper/592/608/0/for-windows-funny-indian-monkey-for-windows-wallpaper-preview.jpg"; // Replace with the desired URL
+});
+    </script>
+  </body>
+</html>
